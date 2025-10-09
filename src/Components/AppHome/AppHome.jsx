@@ -4,6 +4,7 @@ import AppsShow from '../AppsShow/AppsShow'
 
 const AppHome = () => {
   const homeapp = useLoaderData()
+  
 //   console.log(homeapp)
   
   return (
