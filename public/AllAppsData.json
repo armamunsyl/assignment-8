@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify is the world’s most popular music streaming app that lets you listen to millions of songs, podcasts, and curated playlists anytime, anywhere. Discover new artists, follow your favorite creators, and enjoy personalized recommendations based on your taste. With offline downloads and high-quality audio, Spotify brings your music journey to life.",
+    "size": 48,
+    "reviews": 12800000,
+    "ratingAvg": 4.4,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 640000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 9700000 }
+    ]
+  },
+  {
+    "image": "https://cdn-1.webcatalog.io/catalog/canva-cn/canva-cn-icon.png",
+    "title": "Canva",
+    "companyName": "Canva Inc.",
+    "id": 2,
+    "description": "Canva is a powerful design platform that empowers everyone to create stunning visuals with ease. From social media graphics and marketing posters to videos, presentations, and resumes — design anything using drag-and-drop simplicity. Access thousands of free templates, stock photos, and fonts to bring your creative vision to life in minutes.",
+    "size": 36,
+    "reviews": 11500000,
+    "ratingAvg": 4.8,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Rilq4obCk7XIl2Pjb8XT-Ydh_aI3hBNeFwro9fFXrIAuC-zPxCZ4feE4rx5fZ3jHNLw=w240-h480-rw",
+    "title": "Snapseed",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Snapseed is Google’s professional photo editing app designed for photographers and creators. It offers a complete range of precision editing tools, filters, and effects to enhance your photos like a pro. With advanced features such as selective adjust, healing, and RAW photo support, Snapseed gives you full creative control over every image.",
+    "size": 29,
+    "reviews": 2500000,
+    "ratingAvg": 4.5,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/1200px-Notion-logo.svg.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 4,
+    "description": "Notion is an all-in-one workspace that lets you plan, write, and organize your life in one place. Combine notes, tasks, databases, calendars, and wikis to manage both personal goals and team projects. Its minimalist interface and real-time collaboration make productivity simple, flexible, and enjoyable for individuals and professionals alike.",
+    "size": 42,
+    "reviews": 1200000,
+    "ratingAvg": 4.6,
+    "downloads": 5.6,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA",
+    "title": "Duolingo",
+    "companyName": "Duolingo",
+    "id": 5,
+    "description": "Duolingo is the world’s most popular app for learning languages through fun, bite-sized lessons. Improve your reading, writing, and speaking skills with gamified exercises that make learning enjoyable. Whether you're studying English, Spanish, or Japanese — Duolingo adapts to your progress and helps you stay motivated every day.",
+    "size": 35,
+    "reviews": 15000000,
+    "ratingAvg": 4.7,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 12200000 }
+    ]
+  },
+  {
+    "image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 6,
+    "description": "Trello is a visual collaboration tool that helps you organize work and life with boards, lists, and cards. Plan projects, assign tasks, and track progress all in one place. Perfect for teams or individuals, Trello makes project management simple, transparent, and flexible — keeping everyone aligned from start to finish.",
+    "size": 27,
+    "reviews": 2400000,
+    "ratingAvg": 4.3,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/square-zoom-logo-isolated-white-background_469489-910.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 7,
+    "description": "Zoom is a trusted platform for video conferencing, online meetings, and instant messaging. Whether you’re attending remote classes, hosting webinars, or collaborating with global teams — Zoom delivers seamless video and audio quality. With screen sharing, chat, and virtual backgrounds, it’s the all-in-one communication tool for modern work.",
+    "size": 68,
+    "reviews": 12000000,
+    "ratingAvg": 4.2,
+    "downloads": 1,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 8500000 }
+    ]
+  },
+  {
+    "image": "https://lightroommodapks.com/wp-content/uploads/2024/07/Lr-3.png",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
+    "id": 8,
+    "description": "Adobe Lightroom is the essential photo editing and organization tool for creators and professionals. Easily enhance your images using advanced sliders, presets, and AI-powered adjustments. Sync your edits across devices and store your photos securely in the cloud — making Lightroom the perfect blend of creativity and efficiency.",
+    "size": 87,
+    "reviews": 3800000,
+    "ratingAvg": 4.6,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2022/08/84/62f92578037f0.png",
+    "title": "bKash",
+    "companyName": "bKash Limited",
+    "id": 9,
+    "description": "bKash is Bangladesh’s leading mobile financial service that lets you send money, make payments, and cash out instantly from your phone. With nationwide agent coverage, utility bill payments, and QR-based merchant pay, bKash makes digital transactions fast, safe, and accessible for everyone.",
+    "size": 45,
+    "reviews": 5200000,
+    "ratingAvg": 4.6,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 3600000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/EQC9NtbtRvsNcU1r_5Dr8pWm3hPfN3OjGjzkOqzCEPDJvqBGKyfU9-a2ajNtcrIg1rs",
+    "title": "Nagad",
+    "companyName": "Bangladesh Post Office",
+    "id": 10,
+    "description": "Nagad is a secure and fast digital financial service in Bangladesh enabling mobile transactions, bill payments, and mobile recharge. Designed to simplify everyday payments, Nagad empowers millions with safe and accessible financial inclusion nationwide.",
+    "size": 41,
+    "reviews": 4200000,
+    "ratingAvg": 4.5,
+    "downloads": 40,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2023/10/18/6538acc2dcf49_com.pathao.user.png",
+    "title": "Pathao",
+    "companyName": "Pathao Ltd.",
+    "id": 11,
+    "description": "Pathao is a Bangladeshi super app offering ride-sharing, food delivery, parcel services, and digital payments. From daily commutes to sending packages, Pathao brings speed, convenience, and reliability in one platform.",
+    "size": 60,
+    "reviews": 3300000,
+    "ratingAvg": 4.4,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2023/02/93/63eb75b425f71.png",
+    "title": "Foodpanda",
+    "companyName": "Delivery Hero",
+    "id": 12,
+    "description": "Foodpanda is Bangladesh’s leading food delivery app that connects you to thousands of restaurants and grocery shops. Order food, groceries, and essentials to your doorstep — fast, fresh, and hassle-free.",
+    "size": 55,
+    "reviews": 2900000,
+    "ratingAvg": 4.3,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2024/02/87/65c28884a862d_com.grammarly.android.keyboard.png",
+    "title": "Grammarly",
+    "companyName": "Grammarly Inc.",
+    "id": 13,
+    "description": "Grammarly helps you write clearly and confidently everywhere you type. With AI-powered grammar, spelling, and tone suggestions, it enhances your writing for emails, essays, and professional communication.",
+    "size": 28,
+    "reviews": 3400000,
+    "ratingAvg": 4.7,
+    "downloads": 10,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2023/03/25/640cdd2cb131c.png",
+    "title": "CapCut",
+    "companyName": "Bytedance",
+    "id": 14,
+    "description": "CapCut is a free all-in-one video editor and creator for mobile. Add music, filters, effects, and transitions easily. Perfect for content creators and short-video editors.",
+    "size": 85,
+    "reviews": 12500000,
+    "ratingAvg": 4.6,
+    "downloads": 200,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2024/10/52/6709fbb43be02_com.pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 15,
+    "description": "Pinterest lets you discover and save creative ideas from fashion to food. Explore millions of inspirational pins and create your personalized mood boards.",
+    "size": 40,
+    "reviews": 4600000,
+    "ratingAvg": 4.7,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3300000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2018/04/5acdebaa495cf.png",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "id": 16,
+    "description": "Shazam identifies songs playing around you instantly. Just tap to discover the name, artist, and lyrics — and sync your discoveries with Apple Music or Spotify.",
+    "size": 30,
+    "reviews": 2200000,
+    "ratingAvg": 4.8,
+    "downloads": 20,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2018/04/5ac66b96db167.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 17,
+    "description": "Reddit is the home of thousands of communities, endless conversations, and authentic human stories. Explore trending topics, memes, and discussions.",
+    "size": 58,
+    "reviews": 2800000,
+    "ratingAvg": 4.4,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2021/06/93/60cd5a92ced3d.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 18,
+    "description": "LinkedIn is the world’s largest professional network that helps you connect, share, and find job opportunities. Build your career and grow your business with real connections.",
+    "size": 75,
+    "reviews": 6400000,
+    "ratingAvg": 4.5,
+    "downloads": 100,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2019/06/5cf876afcd188.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 19,
+    "description": "Telegram is a fast, secure, and cloud-based messaging app that syncs across all devices. Share media up to 2GB, join large groups, and explore public channels.",
+    "size": 52,
+    "reviews": 8800000,
+    "ratingAvg": 4.7,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 6100000 }
+    ]
+  },
+  {
+    "image": "https://downloadr2.apkmirror.com/wp-content/uploads/2018/03/5aaaf4477aba6.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Google Maps helps you navigate and explore the world with real-time GPS, traffic updates, and local business information. Find the fastest route anywhere you go.",
+    "size": 90,
+    "reviews": 21000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  }
+]

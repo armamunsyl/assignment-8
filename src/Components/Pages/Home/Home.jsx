@@ -5,7 +5,6 @@ import { useLoaderData } from 'react-router'
 
 function Home() {
   const data = useLoaderData();
-  console.log(data)
 
   return (
     <div className='bg-[#f8f8f8]'>

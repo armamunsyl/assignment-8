@@ -1,8 +1,14 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
 import GitLogo from '../../assets/GitHub_Invertocat_Logo.svg.png'
+import { Link } from 'react-router'
 
 function Navbar() {
+    const links = <>
+        <Link to='/'><li>Home</li></Link>
+        <Link to='/apps'><li>Apps</li></Link>
+        <Link to='/apps'><li>Installation</li></Link>
+    </>
     return (
         <div className="navbar bg-base-100 ">
             <div className="navbar-start">
@@ -13,18 +19,14 @@ function Navbar() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow hover:bg-green-400">
-                        <li><a>Home</a></li>
-                        <li><a>Apps</a></li>
-                        <li><a>Installation</a></li>
+                        {links}
                     </ul>
                 </div>
                 <h1 className=" flex items-center text-xl font-bold bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text"><span className='h-6 w-6'><img src={Logo} alt="" /></span>HERO.IO</h1>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>Apps</a></li>
-                    <li><a>Installation</a></li>
+                <ul className="menu menu-horizontal px-1 flex items-center gap-2">
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end ">
