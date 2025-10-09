@@ -9,16 +9,16 @@ const AppsShow = ({ homeapp }) => {
     );
     // console.log(homeapp)
     return (
-        <div className='mt-8 '>
+        <div className='pt-10 bg-[#f8f8f8] '>
             <div>
-                <h1 className="flex justify-center text-[#001931] text-2xl md:text-4xl font-bold">
+                <h1 className="flex justify-center text-[#001931] text-2xl md:text-4xl font-bold ">
                     Our All Applications
                 </h1>
                 <p className='flex justify-center text-[#627382] text-sm md:text-xl p-4 text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
             </div>
-            <div className="flex justify-between items-center mb-6">
-                <p className="font-semibold text-gray-700">
+            <div className="flex justify-between items-center mb-2 p-6 lg:p-2">
+                <p className="font-semibold text-gray-700 text-sm">
                     ({filteredApps.length}) Apps Found
                 </p>
                 <input
@@ -26,7 +26,7 @@ const AppsShow = ({ homeapp }) => {
                     placeholder=" Search Apps"
                     value={searchText}
                     onChange={(e) => setSearchText(e.target.value)}
-                    className="border border-gray-300 rounded-md px-3 py-2 w-60 focus:outline-none focus:ring-2 focus:ring-[#5CE1E6]"
+                    className="border border-gray-300 rounded-md px-3 py-2 w-30 md:w-50 lg:w-65  focus:outline-none focus:ring-2 focus:ring-[#5CE1E6]"
                 />
             </div>
             {filteredApps.length === 0 ? (
@@ -34,7 +34,7 @@ const AppsShow = ({ homeapp }) => {
                    <AppNotFound></AppNotFound>
                 </p>
             ) : (
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-3 lg:p-2">
                     {filteredApps.map((OneApp) => (
                         <DisplayApp key={OneApp.id} OneApp={OneApp} />
                     ))}

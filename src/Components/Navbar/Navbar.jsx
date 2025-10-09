@@ -30,7 +30,7 @@ function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end ">
-                <button className="btn  bg-gradient-to-r from-purple-500 to-indigo-500 text-white"><span className='h-6 w-6'><img src={GitLogo} alt="" /></span>Contribute</button>
+                <Link to='https://github.com/armamunsyl/'><button className="btn  bg-gradient-to-r from-purple-500 to-indigo-500 text-white"><span className='h-6 w-6'><img src={GitLogo} alt="" /></span>Contribute</button></Link>
             </div>
         </div>
     )
