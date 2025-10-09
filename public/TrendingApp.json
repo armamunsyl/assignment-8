@@ -8,7 +8,7 @@
     "size": 48,
     "reviews": 12800000,
     "ratingAvg": 4.4,
-    "downloads": 1000000000,
+    "downloads": 100,
     "ratings": [
       { "name": "1 star", "count": 320000 },
       { "name": "2 star", "count": 150000 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://static.wikia.nocookie.net/appsngames/images/5/53/Canva.jpg/revision/latest/thumbnail/width/360/height/360?cb=20250526120239",
+    "image": "https://cdn-1.webcatalog.io/catalog/canva-cn/canva-cn-icon.png",
     "title": "Canva",
     "companyName": "Canva Inc.",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 36,
     "reviews": 11500000,
     "ratingAvg": 4.8,
-    "downloads": 500000000,
+    "downloads": 5,
     "ratings": [
       { "name": "1 star", "count": 200000 },
       { "name": "2 star", "count": 80000 },
@@ -44,7 +44,7 @@
     "size": 29,
     "reviews": 2500000,
     "ratingAvg": 4.5,
-    "downloads": 100000000,
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 70000 },
       { "name": "2 star", "count": 40000 },
@@ -62,7 +62,7 @@
     "size": 42,
     "reviews": 1200000,
     "ratingAvg": 4.6,
-    "downloads": 50000000,
+    "downloads": 5.6,
     "ratings": [
       { "name": "1 star", "count": 30000 },
       { "name": "2 star", "count": 25000 },
@@ -80,7 +80,7 @@
     "size": 35,
     "reviews": 15000000,
     "ratingAvg": 4.7,
-    "downloads": 500000000,
+    "downloads": 50,
     "ratings": [
       { "name": "1 star", "count": 250000 },
       { "name": "2 star", "count": 100000 },
@@ -98,7 +98,7 @@
     "size": 27,
     "reviews": 2400000,
     "ratingAvg": 4.3,
-    "downloads": 10000000,
+    "downloads": 10,
     "ratings": [
       { "name": "1 star", "count": 60000 },
       { "name": "2 star", "count": 40000 },
@@ -116,7 +116,7 @@
     "size": 68,
     "reviews": 12000000,
     "ratingAvg": 4.2,
-    "downloads": 1000000000,
+    "downloads": 1,
     "ratings": [
       { "name": "1 star", "count": 500000 },
       { "name": "2 star", "count": 250000 },
@@ -134,7 +134,7 @@
     "size": 87,
     "reviews": 3800000,
     "ratingAvg": 4.6,
-    "downloads": 100000000,
+    "downloads": 100,
     "ratings": [
       { "name": "1 star", "count": 100000 },
       { "name": "2 star", "count": 60000 },
