@@ -13,6 +13,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import AppNotFound from "../AppNotFound/AppNotFound";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -28,6 +29,7 @@ const AppDetails = () => {
         const selectedApp = data.find((app) => app.id === appid);
         setAppData(selectedApp || null);
         setLoading(false);
+
         const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
         const already = installedApps.find((a) => a.id === appid);
         if (already) setIsInstalled(true);
@@ -50,12 +52,17 @@ const AppDetails = () => {
     description,
   } = appData;
 
-  // 🔹 Install Handler
   const handleInstall = () => {
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
+    const already = installedApps.find((a) => a.id === appData.id);
+    if (already) {
+      toast.info(`${title} is already installed`);
+      return;
+    }
     installedApps.push(appData);
     localStorage.setItem("installedApps", JSON.stringify(installedApps));
     setIsInstalled(true);
+    toast.success(`${title} installed successfully!`);
   };
 
   return (
@@ -110,6 +117,7 @@ const AppDetails = () => {
               </h1>
             </div>
           </div>
+
           <button
             onClick={handleInstall}
             disabled={isInstalled}
