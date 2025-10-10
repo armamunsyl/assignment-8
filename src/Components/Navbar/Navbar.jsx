@@ -1,14 +1,45 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
 import GitLogo from '../../assets/GitHub_Invertocat_Logo.svg.png'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+
 
 function Navbar() {
-    const links = <>
-        <Link to='/'><li>Home</li></Link>
-        <Link to='/apps'><li>Apps</li></Link>
-        <Link to='/apps'><li>Installation</li></Link>
-    </>
+const links = <>
+    <NavLink
+        to='/'
+        end
+        className={({ isActive }) =>
+            isActive
+                ? "text-[#8248EB] font-semibold underline underline-offset-4"
+                : "text-gray-800 hover:text-[#8248EB] transition-all"
+        }
+    >
+        <li>Home</li>
+    </NavLink>
+
+    <NavLink
+        to='/apps'
+        className={({ isActive }) =>
+            isActive
+                ? "text-[#8248EB] font-semibold underline underline-offset-4"
+                : "text-gray-800 hover:text-[#8248EB] transition-all"
+        }
+    >
+        <li>Apps</li>
+    </NavLink>
+
+    <NavLink
+        to='/installation'
+        className={({ isActive }) =>
+            isActive
+                ? "text-[#8248EB] font-semibold underline underline-offset-4"
+                : "text-gray-800 hover:text-[#8248EB] transition-all"
+        }
+    >
+        <li>Installation</li>
+    </NavLink>
+</>
     return (
         <div className="navbar bg-base-100 ">
             <div className="navbar-start">
@@ -22,7 +53,7 @@ function Navbar() {
                         {links}
                     </ul>
                 </div>
-                <h1 className=" flex items-center text-xl font-bold bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text"><span className='h-6 w-6'><img src={Logo} alt="" /></span>HERO.IO</h1>
+                <Link to={`/`}><h1 className=" flex items-center text-xl font-bold bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text"><span className='h-6 w-6'><img src={Logo} alt="" /></span>HERO.IO</h1></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 flex items-center gap-2">

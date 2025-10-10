@@ -2,8 +2,14 @@ import React from 'react'
 import HeroImg from '../../assets/hero.png'
 import PlayStore from '../../assets/imagesplay.png'
 import AppStore from '../../assets/images.jpg'
+import { Link } from 'react-router'
 
 function Banner() {
+    const links = <>
+        <Link to='https://play.google.com/store/'><button className="btn btn-active bg-white mr-6 text-[#001931]"><span className='h-6 w-6'><img src={PlayStore} alt="" /></span>Googlr Play</button></Link>
+        <Link to='https://www.apple.com/app-store/'><button className="btn btn-active bg-white text-[#001931]"><span className='h-6 w-6'><img src={AppStore} alt="" /></span>App Atore</button></Link>
+     
+    </>
     return (
         <div>
             <div className=" bg-base-200 min-h-screen mb-0">
@@ -16,8 +22,7 @@ function Banner() {
                             and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
                         </p>
                         <div className=''>
-                            <button className="btn btn-active bg-white mr-6 text-[#001931]"><span className='h-6 w-6'><img src={PlayStore} alt="" /></span>Googlr Play</button>
-                            <button className="btn btn-active bg-white text-[#001931]"><span className='h-6 w-6'><img src={AppStore} alt="" /></span>App Atore</button>
+                            {links}
                         </div>
                     </div>
                 </div>
