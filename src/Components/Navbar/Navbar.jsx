@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/logo.png'
 import GitLogo from '../../assets/GitHub_Invertocat_Logo.svg.png'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const links = <>

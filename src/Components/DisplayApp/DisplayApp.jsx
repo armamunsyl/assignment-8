@@ -1,14 +1,14 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa6";
 import { IoMdDownload } from "react-icons/io";
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const DisplayApp = ({ OneApp }) => {
     const { title, downloads, image, ratingAvg ,id} = OneApp;
     // console.log(OneApp)
 
     return (
-        <Link to={`/apps/${id}`}><div>
+        <Link to={`/appinfo/${id}`}><div>
             <div className=" bg-base-100 shadow-sm p-6 mt-4 ">
                 <figure className=''>
                     <img className='rounded-xl'
